@@ -26,8 +26,8 @@ source venv/bin/activate
 
 ### 3. 安装构建依赖
 ```bash
-pip install --upgrade pip
-pip install meson-python>=0.17.1 cython>=3.1.2 numpy>=2 scipy>=1.10.0
+python -m pip install --upgrade pip
+python -m pip install meson-python>=0.17.1 cython>=3.1.2 numpy>=2 scipy>=1.10.0
 ```
 
 ### 4. 安装项目（开发模式）
